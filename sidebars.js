@@ -4,8 +4,8 @@ const sidebars = {
     'python-week1',
     'git-markdown-notes',
     'week2-summary',
-    'gitee-api-guide',
-     'gitee-api-guide-cn',
+    'api/gitee-api-guide',
+     'api/gitee-api-guide-cn',
   ],
 };
 
