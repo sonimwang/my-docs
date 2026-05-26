@@ -4,7 +4,7 @@
 Docusaurus 搭文档站、Postman 调 API、读 JSON
 
 ## 最大困难
- Docusaurus 报错修了一下午
+ Docusaurus 格式复杂，修报错修了很久
 
 ## 下周一计划
 上午：写英文版 API 文档

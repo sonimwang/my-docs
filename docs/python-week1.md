@@ -6,30 +6,36 @@ sidebar_position: 2
 ## 第一天：变量与数据类型
 变量即贴了标签的盒子。‘=’是赋值，等于为‘==’
 | 类型 | 写法 | 说明 |
-|******|******|******|
+|---|---|---|
 | str | `"hello"` | 字符串 |
 | int | `42` | 整数 |
 | float | `3.14` | 小数 |
 | bool | `True` / `False` | 真假 |
+
 ```python
 name="Lydia"
-print(type(name))  # `class 'str'`
-
+print(type(name))  # class 'str'
 ```
+
 ## 第二天：条件判断
+
 比较运算符：`==`(等于)、`!=`(不等于)、`>`、`<`、`>=`、`<=`
-score =85
-if score >=90：
-  print('优秀')
-  elif score >= 80:
-    print("良好")
+
+```python
+score = 85
+if score >= 90:
+    print('优秀')
+elif score >= 80:
+    print('良好')
 elif score >= 60:
-    print("及格")
+    print('及格')
 else:
-    print("不及格")
-    语法要点：条件后必须有 :，缩进（4空格）表示"属于这个条件"。
+    print('不及格')
+```
 
+语法要点：条件后必须有 `:`，缩进（4空格）表示"属于这个条件"。
 
+```python
 # 逻辑运算符：and（且）、or（或）、not（取反）
 age = 20
 has_ticket = True
@@ -43,10 +49,12 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
     print(f"{year} 是闰年")
 else:
     print(f"{year} 不是闰年")
+```
 ## 第三天：列表list
-列表 = 有序的一组数据，用 [] 表示。索引从 0 开始。
 
+列表 = 有序的一组数据，用 `[ ]` 表示。索引从 0 开始。
 
+```python
 fruits = ["apple", "banana", "orange"]
 
 print(fruits[0])      # apple（第1个）
@@ -54,7 +62,7 @@ print(fruits[-1])     # orange（倒数第1个）
 # 常用操作
 fruits.append("grape")     # 末尾添加
 fruits.remove("banana")    # 删除指定值
-print(len(fruits))         # 长度 → 3
+print(len(fruits))         # 长度
 print("apple" in fruits)   # 是否包含 → True
 # 切片：取出一段（左闭右开）
 nums = [10, 20, 30, 40, 50]
@@ -64,6 +72,7 @@ print(nums[2:])     # [30, 40, 50]
 # for 循环遍历
 for fruit in fruits:
     print(f"I like {fruit}")
+```
 ## 第四天：字典dict
 字典 = 键值对的集合，用 `{ }` 表示。通过 key 找 value。
 
@@ -83,13 +92,15 @@ for key, value in person.items():
 ```
 
 JSON 与字典的关系：
-JSON	Python
+
+| JSON | Python |
+|------|--------|
 | `{"name": "Alice"}` | dict 字典 |
-["a", "b", "c"]	list 列表
-"hello"	str
-123	int / float
-true / false	True / False
-null	None
+| `["a", "b", "c"]` | list 列表 |
+| `"hello"` | str |
+| `123` | int / float |
+| `true` / `false` | True / False |
+| `null` | None |
 ## 第五天：函数
 函数 = 有名字的、可重复使用的代码块。输入参数 → 输出返回值。
 
@@ -156,11 +167,10 @@ with open("output.txt", "w", encoding="utf-8") as f:
 常见报错速查表：
 
 | 报错 | 原因 | 解决 |
-| ***| *** | *** |
-|      |      |      |
-FileNotFoundError	文件路径不对	检查文件名
-IndentationError	缩进不对	统一用4空格
-TypeError	类型混用	别把字符串和整数直接加
-KeyError	字典里没这个 key	用 .get() 代替 []
-NameError	变量名没定义	检查拼写
-SyntaxError	语法写错	检查冒号、括号
+|------|------|------|
+| FileNotFoundError | 文件路径不对 | 检查文件名 |
+| IndentationError | 缩进不对 | 统一用4空格 |
+| TypeError | 类型混用 | 别把字符串和整数直接加 |
+| KeyError | 字典里没这个 key | 用 `.get()` 代替 `[]` |
+| NameError | 变量名没定义 | 检查拼写 |
+| SyntaxError | 语法写错 | 检查冒号、括号 |
