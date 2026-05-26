@@ -2,12 +2,12 @@
 
 ## 介绍
 
-本指南教你如何调用生平第一个 API，以 Gitee 为例。
-读完你会掌握：发送 GET 请求、读懂 JSON 返回值。
+本指南教学如何调用你的第一个API，以 Gitee 为例。
+读完你将掌握：发送 GET 请求、读懂 JSON 返回值。
 
 ## 准备工作
 
-- 一个 Gitee 账号（没有的话去 gitee.com 注册）
+- 一个 Gitee 账号（若无请去 gitee.com 注册）
 - 电脑上已安装 Postman
 
 ## 第一步：获取 Access Token
@@ -65,7 +65,8 @@ https://gitee.com/api/v5/user
 }
 每个字段的含义：
 
-字段	类型	含义
+|字段	|类型  |含义|
+|------|------|------|
 id	整数	你在 Gitee 的唯一用户 ID
 login	字符串	你的 Gitee 用户名
 name	字符串	你的显示名称
