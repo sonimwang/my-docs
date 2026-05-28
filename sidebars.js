@@ -6,6 +6,7 @@ const sidebars = {
     'python-modules',
     'python-file-io',
     'python-exceptions',
+    'python-classes',
     'git-markdown-notes',
     'git-advanced',
     'week2-summary',

@@ -3,6 +3,8 @@
 ## 学习内容
 Docusaurus 搭文档站、Postman 调 API、读 JSON
 
+![文档站首页](/img/docs-site-homepage.png)
+
 ## 最大困难
  Docusaurus 格式复杂，修报错修了很久
 

@@ -41,6 +41,8 @@ https://gitee.com/api/v5/user
 7. Click the blue `Send` button
 8. Look at the bottom panel — this is the **response**
 
+![Postman response](/img/postman-api-call.png)
+
 If you see a long block of text with your username, avatar URL, and other info, it worked.
 If you see `{"message": "401 Unauthorized"}`, your token is wrong or missing.
 ## Step 3: Read the JSON Response

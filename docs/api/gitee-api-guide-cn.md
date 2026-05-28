@@ -42,6 +42,8 @@ https://gitee.com/api/v5/user
 7. 点击蓝色 `Send` 按钮
 8. 看底部面板——这就是**返回值**
 
+![Postman 返回值](/img/postman-api-call.png)
+
 如果出现一大段文字，里面有你的用户名、头像链接等信息，说明成功。
 如果出现 `{"message": "401 Unauthorized"}`，说明令牌填错了或没填。
 
