@@ -10,6 +10,7 @@ const sidebars = {
     'git-markdown-notes',
     'git-advanced',
     'week2-summary',
+    'computer-basics',
     'api/gitee-api-guide',
     'api/gitee-api-guide-cn',
   ],
