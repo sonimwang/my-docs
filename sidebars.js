@@ -11,6 +11,7 @@ const sidebars = {
     'git-advanced',
     'week2-summary',
     'computer-basics',
+    'swagger-openapi',
     'api/gitee-api-guide',
     'api/gitee-api-guide-cn',
   ],
