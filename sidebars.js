@@ -12,6 +12,7 @@ const sidebars = {
     'week2-summary',
     'computer-basics',
     'swagger-openapi',
+    'mdx-intro',
     'api/gitee-api-guide',
     'api/gitee-api-guide-cn',
   ],
