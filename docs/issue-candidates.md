@@ -1,29 +1,29 @@
-# 备选 Issue
+# 开源 Issue 记录
 
-## 候选 1
-- 链接：https://gitee.com/mindspore/docs/issues
-- 项目名：mindspore/docs（华为 MindSpore AI 框架文档）
-- 标签：找带 "good first issue" 或 "文档" 标签的
-- 有人认领吗：打开后看 Issue 评论区
+## 初始候选（Gitee，已放弃）
 
-## 候选 2
-- 链接：https://gitee.com/openeuler/docs/issues
-- 项目名：openeuler/docs（openEuler 操作系统文档）
-- 标签：找带 "文档" 或 "翻译" 标签的
-- 有人认领吗：同上
-
-## 候选 3
-- 链接：https://gitee.com/fnet/spring-guides-translation/issues
-- 项目名：fnet/spring-guides-translation（Spring 中文翻译）
-- 标签：找带 "翻译" 或 "待认领" 标签的
-- 有人认领吗：同上
+以下三个 Gitee 仓库的 Issue 页面尝试过，但均无合适的好入门 Issue：
+- mindspore/docs — 无文档类 issue
+- openeuler/docs — 全部已认领
+- fnet/spring-guides-translation — 0 个 issue
 
 ---
 
-### 打开后怎么看
+## GitHub 实战
 
-1. 页面中间是一排 Issue 列表
-2. 先看标签，找带"翻译""文档""good first issue"的
-3. 点进去，拉到最下面看评论区
-4. 评论区空着 = 没人占 → 在评论区发 "我想认领这个任务"
-5. 评论区有人说"认领/我来做" → 跳过，找下一个
+### Issue 1：MemTensor/MemOS #1691（已提 PR）
+
+- 链接：https://github.com/MemTensor/MemOS/issues/1691
+- 任务：翻译 5 个英文模块文档页到中文
+- 标签：`good first issue` `enhancement`
+- 认领：2026-06-02
+- PR：2026-06-05 已提交，修复 dream.md 中 1 行残留英文
+- PR 链接：https://github.com/MemTensor/MemOS/pulls（查看自己的 PR）
+
+### Issue 2：LMCache/LMCache #3539（已认领，备用）
+
+- 链接：https://github.com/LMCache/LMCache/issues/3539
+- 任务：审查和改善机器翻译的中文文档（人工校对）
+- 标签：`good first issue` `documentation` `help wanted`
+- 认领：2026-06-05
+- 状态：待周一开工
