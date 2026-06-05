@@ -19,6 +19,7 @@ const sidebars = {
       items: [
         'git-markdown-notes',
         'git-advanced',
+        'git-fork-workflow',
       ],
     },
     {
@@ -28,6 +29,7 @@ const sidebars = {
         'swagger-openapi',
         'mdx-intro',
         'info-architecture',
+        'ai-prompt-engineering',
         'docs-as-code',
       ],
     },
