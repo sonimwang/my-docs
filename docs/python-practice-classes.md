@@ -1,3 +1,4 @@
+```python
 class Book:
     def __init__(self,title,author):
         self.title=title
@@ -14,3 +15,4 @@ book2.info()
 books=[book1,book2]
 for book in books:
     book.info()
+```
