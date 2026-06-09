@@ -1,5 +1,6 @@
 const sidebars = {
   tutorialSidebar: [
+    'portfolio',
     'intro',
     {
       type: 'category',
@@ -11,6 +12,8 @@ const sidebars = {
         'python-file-io',
         'python-exceptions',
         'python-classes',
+        'python-practice-classes',
+        'python-requests',
       ],
     },
     {
