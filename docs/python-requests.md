@@ -1,3 +1,7 @@
+---
+sidebar_position: 9
+---
+
 # Python requests 模块
 
 ## 什么是 requests
@@ -8,15 +12,20 @@
 
 ```bash
 pip install requests
-发送 GET 请求
+```
 
+## 发送 GET 请求
+
+```python
 import requests
 
 response = requests.get("https://api.github.com/users/sonimwang")
 print(response.status_code)    # 200 表示成功
 print(response.json())         # 返回的 JSON，转成了 Python 字典
+```
 
-对比  Postman 里的操作：
+对比 Postman 里的操作：
+
 | Postman | Python |
 |---------|--------|
 | 选 GET，填 URL | `requests.get(url)` |
@@ -25,8 +34,9 @@ print(response.json())         # 返回的 JSON，转成了 Python 字典
 | 看底部 JSON 面板 | `response.json()` |
 | 看状态码标签 | `response.status_code` |
 
-带参数的请求
+## 带参数的请求
 
+```python
 import requests
 
 url = "https://gitee.com/api/v5/user"
@@ -37,3 +47,4 @@ data = response.json()
 
 print(f"用户名: {data['login']}")
 print(f"仓库数: {data['public_repos']}")
+```

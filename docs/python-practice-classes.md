@@ -1,3 +1,11 @@
+---
+sidebar_position: 8
+---
+
+# Python 类练习
+
+定义一个 `Book` 类，包含书名和作者属性，以及打印信息的方法。
+
 ```python
 class Book:
     def __init__(self,title,author):

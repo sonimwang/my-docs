@@ -2,7 +2,7 @@
 
 ## 前端 vs 后端
 
-| |前端 | 后端 |
+| | 前端 | 后端 |
 |------|------|-----|
 | 是什么 | 用户能看到、能点的地方 | 用户看不见的幕后 |
 | 类比 | 餐厅的桌面、菜单、服务员 | 厨房、厨师、冰箱 |
@@ -16,7 +16,7 @@
 
 例：调取 `api.github.com/users/sonimwang`，此电脑是客户端，GitHub 的电脑是服务端。
 
-## API 
+## API
 
 > API类似一个传话的人，当客户端需要数据，通过API转达服务器，服务器再把数据结果转交API传至客户端
 
@@ -49,17 +49,21 @@ UPDATE users SET email = 'new@email.com' WHERE username = 'sonimwang';
 
 -- 删数据
 DELETE FROM users WHERE username = 'sonimwang';
+```
+
 四句话对应你每天都在做的事：查、增、改、删（CRUD）。
 
-部署是什么
+## 部署是什么
+
 部署 = 把你的网站/文档站放到一台公开的服务器上，让别人通过网址访问。
 
 你现在的 Docusaurus 在 localhost:3000——只有你自己的电脑能看。
 部署之后，你会有一个类似 https://sonimwang.github.io/my-docs 的公开地址，任何人打开都能看。
 
-三个关键词
-|概念|  |	
+## 三个关键词
+
+| 概念 | 说明 |
 |-----|-----|
-|服务器|一台永远不关机的电脑，你的文件放在上面|
-|域名	|gitee.com、github.com——比 IP 地址好记|
-|HTTPS	|网址前面的小锁，加密传输，别人看不到你的数据|
+| 服务器 | 一台永远不关机的电脑，你的文件放在上面 |
+| 域名 | gitee.com、github.com——比 IP 地址好记 |
+| HTTPS | 网址前面的小锁，加密传输，别人看不到你的数据 |

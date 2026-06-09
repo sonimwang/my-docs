@@ -22,11 +22,14 @@ except ValueError:
 except ZeroDivisionError:
     # 如果输入了 0
     print("不能除以 0！")
-常见异常类型
-|异常类型	|触发条件|
-|------    |------|
-ValueError	类型转换失败（比如 int("hello"))
-ZeroDivisionError	除以 0
-FileNotFoundError	文件不存在
-KeyError	字典里没有那个 key
-TypeError	类型用错了（比如字符串 + 整数）
+```
+
+## 常见异常类型
+
+| 异常类型 | 触发条件 |
+|---------|---------|
+| `ValueError` | 类型转换失败（比如 `int("hello")`） |
+| `ZeroDivisionError` | 除以 0 |
+| `FileNotFoundError` | 文件不存在 |
+| `KeyError` | 字典里没有那个 key |
+| `TypeError` | 类型用错了（比如字符串 + 整数） |

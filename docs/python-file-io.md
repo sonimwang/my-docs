@@ -20,8 +20,11 @@ with open("test.txt", "r", encoding="utf-8") as f:
 with open("test.txt", "r", encoding="utf-8") as f:
     for line in f:
         print(line.strip())     # strip() 去掉行尾换行符
-写文件
+```
 
+## 写文件
+
+```python
 # w 模式：覆盖写入
 with open("output.txt", "w", encoding="utf-8") as f:
     f.write("第一行\n")
@@ -32,9 +35,11 @@ with open("output.txt", "w", encoding="utf-8") as f:
 with open("output.txt", "a", encoding="utf-8") as f:
     f.write("第三行\n")
 # 文件现在内容：第一行、第二行、第三行
-with 是什么
-with open(...) as f: 的作用：
+```
 
-自动打开文件，用完自动关闭
-不需要手动 f.close()
- 
+## with 是什么
+
+`with open(...) as f:` 的作用：
+
+- 自动打开文件，用完自动关闭
+- 不需要手动 `f.close()`
