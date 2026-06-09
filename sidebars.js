@@ -1,6 +1,5 @@
 const sidebars = {
   tutorialSidebar: [
-    'sprint-summary',
     'portfolio',
     'intro',
     {
