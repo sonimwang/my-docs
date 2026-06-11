@@ -17,7 +17,9 @@
 - 任务：翻译 5 个英文模块文档页到中文
 - 标签：`good first issue` `enhancement`
 - 认领：2026-06-02
-- PR：2026-06-05 已提交，修复 dream.md 中 1 行残留英文
+- PR：2026-06-05 已提交
+- PR 链接：https://github.com/MemTensor/MemOS/pull/1893
+- 状态：审核中
 - PR 链接：https://github.com/MemTensor/MemOS/pull/1893 （查看自己的 PR）
 
 ### Issue 2：LMCache/LMCache #3539（已认领，备用）
@@ -26,4 +28,4 @@
 - 任务：审查和改善机器翻译的中文文档（人工校对）
 - 标签：`good first issue` `documentation` `help wanted`
 - 认领：2026-06-05
-- 状态：2026-06-09 PR 已合并
+- 状态：2026-06-09 PR 已合并 
