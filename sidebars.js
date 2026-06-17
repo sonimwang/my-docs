@@ -2,7 +2,7 @@ const sidebars = {
   tutorialSidebar: [
     'portfolio',
     'intro',
-    'xiaomi-router-4a-manual',
+    'xiaomi-router-r4a-manual',
     'xiaomi-router-r4a-manual-en',
     {
       type: 'category',
